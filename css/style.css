@@ -31,7 +31,7 @@
         margin-bottom: 3rem;
     }
 
-    .div {
+    .sub-title {
         display: flex;
         justify-content: space-between;
     }
@@ -44,7 +44,7 @@
         font-family: 'Abril Fatface', cursive;
     }
     
-    .class {
+    .selfpicture{
         border-radius: 50%;
         width: 180px;
         height: 180px; 
@@ -87,7 +87,10 @@
         margin-top: 2rem;
         font-family: 'Abril Fatface', cursive;
         font-size: 3rem;
+        margin: 0 auto;
+        margin-top: 2rem;
     }
+
     .sns-list {
         display: flex;
         width: 200px;
@@ -106,20 +109,20 @@
         margin-bottom: 3rem;
     }
 
-    .div {
+    .sub-title {
         display: flex;
         justify-content: space-between;
     }
 
     .main-title {
-        text-align: center;   
+        text-align: center;
         margin-bottom: 3rem;
         font-family: fantasy;
         font-size: 2rem;
         font-family: 'Abril Fatface', cursive;
     }
     
-    .class {
+    .selfpicture {
         border-radius: 50%;
         width: 180px;
         height: 180px; 
@@ -142,7 +145,6 @@
         margin-top: 1rem;
         line-height: 30px;
         padding-bottom: 30px;
-        
     }
 
     footer {
@@ -171,7 +173,10 @@
         margin-top: 2rem;
         font-family: 'Abril Fatface', cursive;
         font-size: 3rem;
+        margin: 0 auto;
+        margin-top: 2rem;
     }
+
     .sns-list {
         display: flex;
         width: 200px;
@@ -189,20 +194,20 @@
         margin-bottom: 3rem;
     }
 
-    .div {
+    .sub-title {
         display: flex;
         justify-content: space-between;
     }
 
     .main-title {
-        text-align: center;   
+        text-align: center;
         margin-bottom: 3rem;
         font-family: fantasy;
         font-size: 2rem;
         font-family: 'Abril Fatface', cursive;
     }
     
-    .class {
+    .selfpicture{
         border-radius: 50%;
         width: 180px;
         height: 180px; 
