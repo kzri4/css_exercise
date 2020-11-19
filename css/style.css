@@ -1,150 +1,156 @@
 @charset "UTF-8";
 
-    .home{
-        width: 100%;
-        margin: 1rem;
-        font-size: 3rem ;
-        font-family: fantasy;
-        margin-left: 10rem;
-        font-family: 'Abril Fatface', cursive;
-    }
+.home {
+    margin: 1rem;
+    font-size: 3rem;
+    font-family: fantasy;
+    margin-left: 10rem;
+    font-family: 'Abril Fatface', cursive;
+}
 
-    article {
-        width: 100%;
-    }
+.sns-list {
+    display: flex;
+    width: 20%;
+    font-size: 2rem;
+    margin-top: 30px;
+}
 
-    .sns-list{
-        display: flex;
-        width: 20%;
-        font-size: 2rem;
-        margin-top: 2rem;
-        margin-right: 2rem;
-    }
+li {
+    list-style: none;
+    margin-left: 1rem;
+}
 
-    li {
-        list-style: none;
-        margin-left: 1rem;
-    }
+.wrapper1 {
+    display: flex;
+    justify-content: space-between;
+}
 
-    .main-image {
-        width: 100%;
-        margin-bottom: 3rem;
-    }
+.main-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+}
 
-    .sub-title {
-        display: flex;
-        justify-content: space-between;
-    }
+.main-title {
+    text-align: center;
+    font-family: fantasy;
+    font-size: 2rem;
+    font-family: 'Abril Fatface', cursive;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
 
-    .main-title {
-        text-align: center;
-        margin-bottom: 3rem;
-        font-family: fantasy;
-        font-size: 2rem;
-        font-family: 'Abril Fatface', cursive;
-    }
+.selfpicture {
+    border-radius: 50%;
+    width: 180px;
+    height: 180px; 
+    zoom: 150%;
+}
+
+.main-body {
+    display: flex;
     
-    .selfpicture{
-        border-radius: 50%;
-        width: 180px;
-        height: 180px; 
-        zoom: 150%;
-        margin-left: 5rem;
-        margin-bottom: 2rem;
-    }
+}
 
-    .main-body {
-        display: flex;
-    }
+p { 
+    vertical-align: middle;
+    margin-top: 1rem;
+    line-height: 30px;
+    padding-bottom: 30px;
+    margin-left: 50px;
+}
 
-    p { 
-        vertical-align: middle;
-        margin-left: 10rem;
-        margin-right: 15rem;
-        margin-top: 1rem;
-        line-height: 30px;
-    }
+.wrapper2 {
+    flex: 1;
+    width:80% ;
+    margin-left:100px ;
+}
 
-    footer {
-        background: rgb(14, 8, 2);
-        text-align: center;
-        padding: 26px;
-    }
+footer {
+    background: rgb(14, 8, 2);
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px;
+}
 
-    footer p {
-        color: #fff;
-        font-size: 1rem;
-    }
+footer p {
+    color: #fff;
+    font-size: 1rem;
+}
 
 /*タブレット表示*/
 @media (max-width: 768px) {
-    div{
+    .wrapper1{
         flex-direction: column;
     }
 
-    .home{
-        text-align: center;
-        margin-top: 2rem;
+    .home {
+        margin: 1rem;
+        font-size: 3rem ;
+        font-family: fantasy;
         font-family: 'Abril Fatface', cursive;
-        font-size: 3rem;
-        margin: 0 auto;
-        margin-top: 2rem;
+        text-align: center;
     }
 
     .sns-list {
         display: flex;
-        width: 200px;
+        width: 20%;
         font-size: 2rem;
-        margin-top: 2rem;
-        margin-left : auto;
+        margin-top: 30px;
+        margin-left: auto;
+        margin-right: 100px;
     }
-    
+
     li {
         list-style: none;
         margin-left: 1rem;
     }
 
-    .main-image {
-        width: 100%;
-        margin-bottom: 3rem;
-    }
-
-    .sub-title {
+    .wrapper1 {
         display: flex;
         justify-content: space-between;
     }
 
+    .main-image {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 30px;
+    }
+
     .main-title {
         text-align: center;
-        margin-bottom: 3rem;
         font-family: fantasy;
         font-size: 2rem;
         font-family: 'Abril Fatface', cursive;
+        margin-bottom: 50px;
+        margin-top: 50px;
+        margin-right: 50px;
     }
-    
+
     .selfpicture {
         border-radius: 50%;
-        width: 180px;
         height: 180px; 
         zoom: 150%;
-        margin-left: 5rem;
-        margin-bottom: 2rem;
-        margin-left : auto;
-        margin-right : auto;
-
+        margin-left: 70px;
     }
 
     .main-body {
-        display: flex;
+        flex-direction: column;
     }
 
     p { 
         vertical-align: middle;
-        margin-left: 10rem;
-        margin-right: 10rem;
         margin-top: 1rem;
         line-height: 30px;
         padding-bottom: 30px;
+        display: inline-block;
+        margin: 10px;
+        margin-top: 30px;
+    }
+
+    .wrapper2 {
+        flex: 1;
+        margin-right: 50px;
     }
 
     footer {
@@ -152,8 +158,6 @@
         text-align: center;
         margin-top: 10px;
         padding: 10px;
-
-        
     }
 
     footer p {
@@ -164,56 +168,50 @@
 
 /*スマホ表示*/
 @media (max-width: 480px){
-    div{
-        flex-direction: column;
-    }
-
-    .home{
-        text-align: center;
-        margin-top: 2rem;
+    
+    .home {
+        margin: 1rem;
+        font-size: 3rem ;
+        font-family: fantasy;
         font-family: 'Abril Fatface', cursive;
-        font-size: 3rem;
-        margin: 0 auto;
-        margin-top: 2rem;
+        text-align: center;
     }
 
     .sns-list {
         display: flex;
-        width: 200px;
+        width: 20%;
         font-size: 2rem;
-        margin-top: 2rem;
-        margin-left : auto;
+        margin-top: 30px;
     }
-    
+
     li {
         list-style: none;
         margin-left: 1rem;
     }
 
-    .main-image {
-        margin-bottom: 3rem;
-    }
-
-    .sub-title {
+    .wrapper1 {
         display: flex;
         justify-content: space-between;
     }
 
+    .main-image {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 30px;
+    }
+
     .main-title {
         text-align: center;
-        margin-bottom: 3rem;
         font-family: fantasy;
         font-size: 2rem;
         font-family: 'Abril Fatface', cursive;
+        margin-left: 50px;
     }
-    
-    .selfpicture{
+
+    .selfpicture {
         border-radius: 50%;
-        width: 180px;
-        height: 180px; 
         zoom: 150%;
-        margin-left : auto;
-        margin-right : auto;
+        margin-left: 40px;
     }
 
     .main-body {
@@ -221,17 +219,21 @@
     }
 
     p { 
+        vertical-align: middle;
+        margin-top: 1rem;
         line-height: 30px;
-        padding-bottom: 30px;
-        margin-left: 2rem;
-        margin-right: 2rem;
+        padding-bottom: 20px;
+    }
+
+    .wrapper2 {
+        width: 80%;
+        margin-left: 50px;
     }
 
     footer {
         background: rgb(14, 8, 2);
         text-align: center;
-        margin-top: 10px;
-        padding: 10px;
+        max-width: 100%;
     }
 
     footer p {
