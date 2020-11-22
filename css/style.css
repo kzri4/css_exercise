@@ -16,7 +16,7 @@
 
 li {
     list-style: none;
-    margin-left: 1rem;
+    margin-left: 20px;
 }
 
 header .wrapper {
@@ -43,9 +43,8 @@ header .wrapper {
 
 .main-body img {
     border-radius: 50%;
-    width: 180px;
-    height: 180px; 
-    zoom: 150%;
+    width: 240px;
+    height: 240px; 
 }
 
 .main-body {
@@ -55,17 +54,15 @@ header .wrapper {
 
 .main-body p { 
     vertical-align: middle;
-    margin-top: 1rem;
+    margin-top: 10px;
     line-height: 30px;
     padding-bottom: 30px;
     margin-left: 50px;
 }
 
 article .wrapper {
-    flex: 1;
-    width:80% ;
-    margin-left:100px ;
-    margin-bottom: 40px;
+    width: 80%;
+    margin: 0 auto;
 }
 
 footer {
@@ -86,7 +83,6 @@ footer p {
     header .wrapper{
         flex-direction: column;
         margin-left: 200px;
-        flex: 1;
     }
 
     .home a {
@@ -115,8 +111,7 @@ footer p {
     }
 
     article .wrapper{
-        margin-right:10px;
-        margin-left: 50px;
+        margin: 0 auto;
     }
 
     .main-title {
@@ -128,8 +123,7 @@ footer p {
 
     .main-body img {
         border-radius: 50%;
-        zoom: 150%;
-        margin-left: 100px;
+        margin: 0 auto;
     }
 
     .main-body {
@@ -161,7 +155,6 @@ footer p {
     
     header .wrapper{
         flex-direction: column;
-        flex: 1;
         margin-left: 100px;
     }
 
@@ -179,7 +172,7 @@ footer p {
 
     li {
         list-style: none;
-        margin-left: 1rem;
+        margin-left: 20px;
     }
 
     .main-image {
@@ -195,8 +188,6 @@ footer p {
 
     .main-body img {
         border-radius: 50%;
-        zoom: 150%;
-        margin: 30px;
     }
 
     .main-body {
@@ -204,13 +195,12 @@ footer p {
     }
 
     .main-body p { 
-        vertical-align: middle;
         line-height: 30px;
         padding-bottom: 20px;
     }
 
     article .wrapper{
-        margin: 30px;
+        margin: 0 auto;
     }
 
     footer {
