@@ -196,7 +196,7 @@ footer p {
     .main-body p { 
         line-height: 30px;
         padding-bottom: 20px;
-        margin-left: auto;
+        margin-left: 0;
     }
 
     article .wrapper{
